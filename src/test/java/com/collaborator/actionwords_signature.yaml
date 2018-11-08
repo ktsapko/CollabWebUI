@@ -1,0 +1,70 @@
+---
+- name: The browser "name" is started
+  uid: f57be553-821a-4f32-9de0-db49fac2c806
+  parameters:
+  - name: name
+  body_hash: aa11549890fca5b92e07586b0d68d8b4
+- name: I edit user login prompt with text "text"
+  uid: 48075feb-9974-4aaa-a8fe-4b170587a805
+  parameters:
+  - name: text
+  body_hash: 5340b2c3b9d88d04cd1b3f0ed9268d15
+- name: Logout
+  uid: aa17dbc9-84c7-43a4-a7ea-63687ab61c27
+  parameters: []
+  body_hash: a5154bba33589705b8150572c6e72121
+- name: New prompt displays text "text"
+  uid: 441b8d13-277c-46d9-b332-47bb30ac16a8
+  parameters:
+  - name: text
+  body_hash: bca6c8ba83358e3a8639c2fb2c6764f6
+- name: I login as "username" with password "password"
+  uid: 006d3b3f-f564-43c3-8e14-06dbae989e5b
+  parameters:
+  - name: username
+  - name: password
+  body_hash: a99d30fdcbd1df2e79430b5b74f91ad2
+- name: Open Create Review page
+  uid: 3fe334c6-0c2e-449e-b79a-952ee875573c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Open Summary sub tab
+  uid: c0e36403-7e28-480d-86a4-a14e83a758d7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Open Materials tab
+  uid: fdf93340-080c-4957-86e1-aaa357c4305e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Upload file "file_path"
+  uid: 9b47d0e1-caf9-45c8-99b0-26cd8b8e18a6
+  parameters:
+  - name: file_path
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Open Diff Viewer
+  uid: 19897f21-8d95-4908-b0b6-1d40451da569
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Open file "file_name" in Diff viewer
+  uid: 1d308f7d-ba1e-46ee-8cf8-6a0a6e847571
+  parameters:
+  - name: file_name
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Add overall comment "text"
+  uid: aeaca900-0338-4ccd-973d-668b3136bc98
+  parameters:
+  - name: text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Return to Review page
+  uid: 179922a9-e008-40b9-ada0-cb807f804319
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Check comment type
+  uid: 230aeeec-fda4-4dbf-9276-22cae1f97d8e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Wait
+  uid: cbf3c5d6-c8ac-482d-8591-b7bfd9a22399
+  parameters:
+  - name: seconds
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
