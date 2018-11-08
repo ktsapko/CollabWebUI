@@ -28,8 +28,9 @@ public class LoginPage extends Browser {
         this.driver = driver;
     }
 
+
     public void OpenCollabServerURL() {
-        driver.get("http://7207f2cb.ngrok.io");
+        driver.get("http://41d0fb30.ngrok.io");
         wait(Wait2Seconds);
     }
 
@@ -67,6 +68,7 @@ public class LoginPage extends Browser {
      * @param strPasword
      * @return
      */
+
 
     public void LoginToCollab(String strUserName, String strPasword) {
 
